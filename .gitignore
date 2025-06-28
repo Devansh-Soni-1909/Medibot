@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# Vectorstore / model data
+vectorstore/
+*.faiss
+*.pkl
+*.bin
+
+# Data files
+data/
+*.pdf
+
+# System files
+.DS_Store
+Thumbs.db
